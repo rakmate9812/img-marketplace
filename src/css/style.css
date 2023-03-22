@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand&family=Ubuntu:ital,wght@0,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ubuntu", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(22, 7, 36);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 5rem;
+}
+
+.nav_left h1 {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.check_btn {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.check_btn {
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+  color: white;
+  line-height: 80px;
+}
+
+.nav_right ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_right ul li a {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.nav_right ul li a:hover {
+  background-color: #fff;
+  border-radius: 7px;
+  color: rgb(22, 7, 36);
+}
+
+@media screen and (max-width: 40rem) {
+  .list {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 7, 36);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 100%;
+    transition: all 1s;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .check_btn {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0%;
+  }
+}
