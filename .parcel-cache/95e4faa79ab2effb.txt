@@ -8,7 +8,7 @@
 76C:\gepen_sajat_cuccok\img-marketplace\node_modules\chokidar\lib\constants.js133244031158403426 0
 90C:\gepen_sajat_cuccok\img-marketplace\node_modules\caniuse-lite\data\features\proximity.js133244030907139186 0
 71C:\gepen_sajat_cuccok\img-marketplace\node_modules\terser\dist\.gitkeep133244030884058167 0
-42C:\gepen_sajat_cuccok\img-marketplace\dist133244063505385224 1
+42C:\gepen_sajat_cuccok\img-marketplace\dist133244069173598895 1
 105C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\runtime-browser-hmr\src\loaders\.eslintrc.json133244030890431082 0
 101C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133244030902770986 1
 55C:\gepen_sajat_cuccok\img-marketplace\node_modules\csso133244030898047466 1
@@ -57,7 +57,7 @@
 58C:\gepen_sajat_cuccok\img-marketplace\src\img\trending.png133244051441477748 0
 75C:\gepen_sajat_cuccok\img-marketplace\node_modules\svgo\lib\svgo\jsAPI.d.ts133244030900006695 0
 91C:\gepen_sajat_cuccok\img-marketplace\node_modules\caniuse-lite\data\features\nav-timing.js133244030906568542 0
-48C:\gepen_sajat_cuccok\img-marketplace\index.html133244061054327975 0
+48C:\gepen_sajat_cuccok\img-marketplace\index.html133244066376718619 0
 89C:\gepen_sajat_cuccok\img-marketplace\node_modules\yaml\browser\dist\warnings-df54cb69.js133244030897852068 0
 140C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo133244030901331736 1
 79C:\gepen_sajat_cuccok\img-marketplace\node_modules\posthtml-render\package.json133244030885165973 0
@@ -113,7 +113,7 @@
 83C:\gepen_sajat_cuccok\img-marketplace\node_modules\nth-check\lib\esm\index.d.ts.map133244030892865794 0
 82C:\gepen_sajat_cuccok\img-marketplace\node_modules\caniuse-lite\data\regions\PG.js133244030906975866 0
 104C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133244030901044749 0
-58C:\gepen_sajat_cuccok\img-marketplace\src\js\controller.js133244034921635596 0
+58C:\gepen_sajat_cuccok\img-marketplace\src\js\controller.js133244065459135895 0
 67C:\gepen_sajat_cuccok\img-marketplace\node_modules\stable\stable.js133244030885523809 0
 69C:\gepen_sajat_cuccok\img-marketplace\node_modules\jquery\src\ajax.js133244033046703595 0
 60C:\gepen_sajat_cuccok\img-marketplace\node_modules\svgo\dist133244030899278301 1
@@ -137,7 +137,7 @@
 85C:\gepen_sajat_cuccok\img-marketplace\node_modules\css-select\lib\attributes.d.ts.map133244030893498511 0
 55C:\gepen_sajat_cuccok\img-marketplace\node_modules\.bin133244031160881580 1
 94C:\gepen_sajat_cuccok\img-marketplace\node_modules\caniuse-lite\data\features\css-clip-path.js133244030902158878 0
-55C:\gepen_sajat_cuccok\img-marketplace\src\css\style.css133244064964060116 0
+55C:\gepen_sajat_cuccok\img-marketplace\src\css\style.css133244069320174639 0
 82C:\gepen_sajat_cuccok\img-marketplace\node_modules\caniuse-lite\data\regions\GY.js133244030904898716 0
 77C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\graph\lib\Graph.js133244030892178037 0
 69C:\gepen_sajat_cuccok\img-marketplace\node_modules\lmdb\dict\dict.txt133244030902258863 0
@@ -3757,7 +3757,7 @@
 69C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\source-map133244030900145726 1
 75C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\transformer-html133244030890583915 1
 74C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\transformer-svg133244030891132188 1
-64C:\gepen_sajat_cuccok\img-marketplace\dist\index.e37f48ea.js.map133244061057731802 0
+64C:\gepen_sajat_cuccok\img-marketplace\dist\index.e37f48ea.js.map133244067494296531 0
 111C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\node-resolver-core\test\fixture\env-dep\package.json133244030900080636 0
 64C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\types133244030888916642 1
 64C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\utils133244030899681137 1
@@ -4237,7 +4237,7 @@
 100C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\custom-format-mismatch133244030902800947 1
 100C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\custom-targets-distdir133244030902820977 1
 95C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\duplicate-targets133244030902863693 1
-61C:\gepen_sajat_cuccok\img-marketplace\dist\index.c92073ef.css133244063505336808 0
+61C:\gepen_sajat_cuccok\img-marketplace\dist\index.c92073ef.css133244069173548800 0
 100C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\invalid-source-missing133244030902907672 1
 108C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file133244030902949097 1
 98C:\gepen_sajat_cuccok\img-marketplace\node_modules\@parcel\core\test\fixtures\main-format-mismatch133244030903022733 1
@@ -4528,7 +4528,7 @@
 62C:\gepen_sajat_cuccok\img-marketplace\node_modules\.bin\terser133244030909715526 0
 66C:\gepen_sajat_cuccok\img-marketplace\node_modules\.bin\terser.cmd133244030909715526 0
 66C:\gepen_sajat_cuccok\img-marketplace\node_modules\.bin\terser.ps1133244030909715526 0
-65C:\gepen_sajat_cuccok\img-marketplace\dist\index.c92073ef.css.map133244063505371152 0
-60C:\gepen_sajat_cuccok\img-marketplace\dist\index.e37f48ea.js133244061057661791 0
-53C:\gepen_sajat_cuccok\img-marketplace\dist\index.html133244061057521837 0
+65C:\gepen_sajat_cuccok\img-marketplace\dist\index.c92073ef.css.map133244069173588797 0
+60C:\gepen_sajat_cuccok\img-marketplace\dist\index.e37f48ea.js133244067494256544 0
+53C:\gepen_sajat_cuccok\img-marketplace\dist\index.html133244067494391029 0
 64C:\gepen_sajat_cuccok\img-marketplace\dist\trending.a70cac81.png133244061057681928 0

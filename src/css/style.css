@@ -97,17 +97,18 @@
 
 .search-box {
   display: flex;
-  max-width: 500px;
+  width: 700px;
   background: #fff;
   border-radius: 5px;
   height: 65px;
   padding: 10px;
   box-shadow: 0 8px 6px -10px #b3c6ff;
+  margin: 0 50px 0 50px;
 }
 
 .input {
   width: 100%;
-  border: 0;
+  border: 0px;
   font-size: 1rem;
   padding: 0 38px 0 20px;
   color: #6f768d;
