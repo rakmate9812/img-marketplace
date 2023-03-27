@@ -1,0 +1,24 @@
+{
+  "name": "img-marketplace",
+  "version": "1.0.0",
+  "description": "A portfolio web app, where you can (NOT) sell and buy high res images",
+  "scripts": {
+    "start": "parcel --open chrome index.html",
+    "build": "parcel build index.html --dist-dir finalDist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakmate9812/img-marketplace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakmate9812/img-marketplace/issues"
+  },
+  "homepage": "https://github.com/rakmate9812/img-marketplace#readme",
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "parcel": "^2.8.3",
+    "sass": "^1.60.0"
+  }
+}

@@ -166,7 +166,7 @@
 }
 
 /* TODO */
-/* .search .search_box .dropdown ul {
+.search .search_box .dropdown ul {
   display: none;
   position: absolute;
   top: 70px;
@@ -226,4 +226,4 @@
   font-size: 22px;
   color: #5078ef;
   cursor: pointer;
-} */
+}
