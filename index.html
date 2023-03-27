@@ -36,30 +36,27 @@
       </div>
     </nav>
     <!-- Search bar -->
-    <div class="container search">
-      <div class="search_box">
-        <div class="dropdown">
-          <div class="default_option">All</div>
-          <!-- this need some TODO -->
-          <ul>
-            <li>All</li>
-            <li>Recent</li>
-            <li>Popular</li>
-          </ul>
-        </div>
-        <div class="search_field">
-          <input
-            type="text"
-            class="input"
-            onfocus="this.placeholder = ''"
-            onblur="this.placeholder = 'Search for thousands of images...'"
-            placeholder="Search for thousands of images..." />
-          <i class="fas fa-search"></i>
-        </div>
+    <div class="search">
+      <div class="search-box">
+        <input
+          type="text"
+          class="input"
+          onfocus="this.placeholder = ''"
+          onblur="this.placeholder = 'Search for any image...'"
+          placeholder="Search for any image..." />
+        <i class="fas fa-search search_icon"></i>
       </div>
     </div>
-    <!-- Gallery -->
+
+    <!-- Trending gallery -->
     <div class="container">
+      <div class="gallery_title">
+        Trending
+        <img
+          class="gallery_icon"
+          src="/src/img/trending.png"
+          alt="trending icon" />
+      </div>
       <div class="gallery">
         <div class="gallery-item">
           <img
