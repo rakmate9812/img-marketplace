@@ -97,7 +97,8 @@
 
 .search-box {
   display: flex;
-  width: 700px;
+  position: relative;
+  width: 600px;
   background: #fff;
   border-radius: 5px;
   height: 65px;
@@ -108,18 +109,27 @@
 
 .input {
   width: 100%;
-  border: 0px;
+  border: 2px solid white;
   font-size: 1rem;
   padding: 0 38px 0 20px;
   color: #6f768d;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #5078ef;
 }
 
 .search_icon {
-  margin: auto;
-  margin-left: 10px;
-  font-size: 25px;
+  position: absolute;
+  align-self: center;
+  font-size: 30px;
   color: #5078ef;
   cursor: pointer;
+  right: 20px;
+  padding: 5px;
 }
 
 /* gallery */
