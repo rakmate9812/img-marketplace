@@ -1,6 +1,6 @@
 # UN-F-T
 
-## A digital marketplace for selling and buying high resolution images
+## A digital marketplace for (NOT) selling and buying high resolution images
 
 Current progress: Basic styling, editing html
 
