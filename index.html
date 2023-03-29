@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/index/style.css" />
     <script
       src="https://kit.fontawesome.com/ea067a8456.js"
       crossorigin="anonymous"></script>
-    <script type="module" src="/src/js/controller.js"></script>
+    <script defer type="module" src="/src/js/index/indexController.js"></script>
     <title>UN-F-T Startpage</title>
     <style>
       body {
@@ -20,7 +20,9 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="nav_left">
-        <h1>UN-F-T</h1>
+        <a href="index.html">
+          <h1>UN-F-T</h1>
+        </a>
       </div>
       <div class="nav_right">
         <input type="checkbox" id="nav_check" />
@@ -31,7 +33,7 @@
           <li><a href="#">Categories</a></li>
           <li><a href="#">Profile</a></li>
           <li><a href="#">Cart</a></li>
-          <li><a href="#">Info</a></li>
+          <li><a href="info.html">Info</a></li>
         </ul>
       </div>
     </nav>
@@ -53,7 +55,7 @@
         Trending
         <img
           class="gallery_icon"
-          src="/src/img/trending.png"
+          src="/src/img/index/trending.png"
           alt="trending icon" />
       </div>
       <div class="gallery">
