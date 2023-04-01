@@ -19,6 +19,7 @@
   "dependencies": {
     "jquery": "^3.6.4",
     "parcel": "^2.8.3",
-    "sass": "^1.60.0"
+    "sass": "^1.60.0",
+    "swiper": "^9.2.0"
   }
 }

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand&family=Ubuntu:ital,wght@0,400;1,700&display=swap");
 @import url(../navbar.css);
 
+* {
+  /* outline: 1px solid red; */
+}
+
 /* search box */
 .search {
   display: flex;
@@ -70,20 +74,6 @@
   height: 30px;
 }
 
-.heading {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: center;
-  padding: 3.5rem 0;
-  color: #1a1a1a;
-}
-
-.heading span {
-  display: block;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -91,10 +81,8 @@
 }
 
 .gallery-item {
-  flex: 1 0 12rem;
   margin: 1rem;
   box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-  overflow: hidden;
 }
 
 .gallery-image {
@@ -107,4 +95,45 @@
 
 .gallery-image:hover {
   transform: scale(1.15);
+}
+
+/* slider */
+
+.slide-container {
+  width: 100%;
+}
+.slide-content {
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.swiper-navBtn {
+  color: #6e93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover {
+  color: #4070f4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev {
+  opacity: 1;
+}
+.swiper-pagination-bullet {
+  background-color: #6e93f7;
+  /* opacity: 1; */
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
 }

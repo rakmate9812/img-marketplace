@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/css/index/style.css" />
-    <script
-      src="https://kit.fontawesome.com/ea067a8456.js"
-      crossorigin="anonymous"></script>
+
+    <!-- prettier-ignore -->
+    <script src="https://kit.fontawesome.com/ea067a8456.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" defer src="/src/js/index/indexController.js"></script>
+
     <title>UN-F-T Startpage</title>
-    <style>
-      body {
-        background-color: #e4eefa;
-      }
-    </style>
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar">
@@ -59,44 +59,53 @@
           src="/src/img/index/trending.png"
           alt="trending icon" />
       </div>
-      <div class="gallery">
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1600758208050-a22f17dc5bb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            alt="mt. fuji" />
+      <div class="slide-container swiper gallery">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper gallery-item">
+            <div class="swiper-slide">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1600758208050-a22f17dc5bb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="mt. fuji" />
+            </div>
+            <div class="swiper-slide gallery-item">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="a gate" />
+            </div>
+            <div class="swiper-slide gallery-item">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="staircase" />
+            </div>
+            <div class="swiper-slide gallery-item">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1526095484820-9474eda81596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="cute fox" />
+            </div>
+            <div class="swiper-slide gallery-item">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=536&q=80"
+                alt="tokyo tower" />
+            </div>
+            <div class="swiper-slide gallery-item">
+              <img
+                class="gallery-image"
+                src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                alt="posters" />
+            </div>
+          </div>
         </div>
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-            alt="a gate" />
-        </div>
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-            alt="staircase" />
-        </div>
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1526095484820-9474eda81596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            alt="cute fox" />
-        </div>
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=536&q=80"
-            alt="tokyo tower" />
-        </div>
-        <div class="gallery-item">
-          <img
-            class="gallery-image"
-            src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            alt="posters" />
-        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
       </div>
     </div>
+    <!-- Swiper JS -->
+    <!--Uncomment this line-->
   </body>
 </html>
