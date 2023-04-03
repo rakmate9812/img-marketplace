@@ -1,13 +1,12 @@
-import $ from "../../../node_modules/jquery/dist/jquery.min.js";
-import * as model from "./indexModel.js";
-import * as view from "./indexView.js";
-import * as cfg from "../config.js";
+import { getTrendingData } from "./indexModel.js";
+import { TrendingView } from "./indexView.js";
+import { swiper } from "../swiper.js";
 
-// console.log($());
+const init = async function () {
+  swiper();
+  const trendingData = await getTrendingData();
+  const trendingView = new TrendingView();
+  trendingView.render(trendingData);
+};
 
-// model.getData(
-//   "https://api.unsplash.com/search/photos/?query=mountains&page=21&per_page=6",
-//   cfg.ACCESS_KEY
-// );
-
-view.trendingSwiper();
+init();
